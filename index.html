@@ -1,84 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-compatible" content="ie=edge">
-  <title>my project</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
 </head>
 <body>
-    <h1>survey form</h1>
-    <p> please complete the form correctly</p>
-    <form action="example.html" method="GET">
-      <div>
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name"  placeholder="UaerName" required>
-      </div>
-      <br>
-      <div>
-        <label>Last name:</label>
-        <input type="text" name="last name" placeholder="last name" required>
-      </div>
-      <br>
-      <div> 
-        <label for="age">Age:</label>
-        <input type="number" name="age" id="age" min="1" max="100" step="1" placeholder="Enter your age" required>
-      </div>
-      <br>
-      <div>
-        <label>Email:</label>
-        <input type="Email" name="email" id="email" placeholder="Enter your email" required>
-      </div>
-      <br>
-      <div> select your your favorate food</div>
-      <br>
-      <div>
-        <label for="Orange"> Orange</label>
-        <input type="checkbox" name="Orange" id="Orange">
-      </div>
-      <div>
-        <label for="Apple"> Apple</label>
-        <input type="checkbox" name="Apple" id="Apple">
-      </div>
-      <br>
-      <div>
-        Gender
-      </div>
-      <br>
-      <div>
-        <label for="male">Male</label>
-        <input type="radio" name="Gender" id="female" value="male">
-      </div>
-      <div>
-        <label for="female">female</label>
-        <input type="radio" name="Gender" id="male" value="female">
-      </div>
-      <br>
-      <div>
-        <label for="EyeColor">Eye Color:</label>
-        <select name="EyeColor" id="EyeColor">
-          <option value="green">green</option>
-          <option label="brown" value="brown"></option>
-        </select>
-      </div>
-      <br>
-      <div>
-        <label for="bio">bio:</label>
-        <textarea id="bio" name="bio"></textarea>
-      </div>
-      <br>
-      <div>
-        <label for="phone">phone:</label>
-        <input type="tel" name="phone" id="phone" placeholder="555-555-555">
-      </div>
-      <br>
-      <div>
-        <input type="submit">
-      </div>
-      <br>
-      <div>
-        <input type="reset">
-      </div>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please complete the form correctly.</p>
+    <form action="example.html" method="GET" id="survey-form">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Username" required>
+        </div>
+        <br>
+        <div>
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="lastName" placeholder="Last Name" required>
+        </div>
+        <br>
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" min="1" max="100" step="1" placeholder="Enter your age" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        </div>
+        <br>
+        <div>Select your favorite food:</div>
+        <br>
+        <div>
+            <label for="orange">Orange</label>
+            <input type="checkbox" name="orange" id="orange">
+        </div>
+        <div>
+            <label for="apple">Apple</label>
+            <input type="checkbox" name="apple" id="apple">
+        </div>
+        <br>
+        <div>Gender:</div>
+        <br>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+        </div>
+        <div>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+        </div>
+        <br>
+        <div>
+            <label for="eyeColor">Eye Color:</label>
+            <select name="eyeColor" id="eyeColor">
+                <option value="green">Green</option>
+                <option value="brown">Brown</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="bio">Bio:</label>
+            <textarea id="bio" name="bio"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" placeholder="555-555-555">
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+        </div>
+        <br>
+        <div>
+            <input type="reset">
+        </div>
     </form>
 </body>
 </html>
