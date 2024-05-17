@@ -11,8 +11,8 @@
     <p id="description">Please complete the form correctly.</p>
     <form action="example.html" method="GET" id="survey-form">
         <div>
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name" placeholder="Username" required>
+            <label id="name">Name:</label>
+            <input type="text" id="name" placeholder="Username" required>
         </div>
         <br>
         <div>
@@ -26,19 +26,19 @@
         </div>
         <br>
         <div>
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            <label id="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
         </div>
         <br>
         <div>Select your favorite food:</div>
         <br>
         <div>
             <label for="orange">Orange</label>
-            <input type="checkbox" name="orange" id="orange">
+            <input type="checkbox" name="orange" id="orange" value="option1">
         </div>
         <div>
             <label for="apple">Apple</label>
-            <input type="checkbox" name="apple" id="apple">
+            <input type="checkbox" name="apple" id="apple" value="option2">
         </div>
         <br>
         <div>Gender:</div>
@@ -61,7 +61,7 @@
         </div>
         <br>
         <div>
-            <label for="bio">Bio:</label>
+            <label for="bio" input="test2">Bio:</label>
             <textarea id="bio" name="bio"></textarea>
         </div>
         <br>
