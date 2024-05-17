@@ -1,15 +1,15 @@
 h1 {
-  color:  brown;
+  color brown;
   text-align: center;
- }
+}
 
 body {
   background-color: rgb(64, 212, 245);
   margin-left: 490px;
   margin-right: 500px;
   border: solid;
- }
+}
 
 label {
   background-color: rgb(210, 106, 106);
- }
+}
