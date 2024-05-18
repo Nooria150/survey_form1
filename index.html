@@ -1,82 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Project</title>
+      <h1 id="title">Survey form</h1> 
+      <p id="description">please complete the form correctly</p>
+      <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-    <h1 id="title">Survey Form</h1>
-    <p id="description">Please complete the form correctly.</p>
-    <form action="example.html" method="GET" id="survey-form">
-        <div>
-            <label id="name">Name:</label>
-            <input type="text" id="name" placeholder="Username" required>
-        </div>
-        <br>
-        <div>
-            <label for="lastName">Last Name:</label>
-            <input type="text" name="lastName" placeholder="Last Name" required>
-        </div>
-        <br>
-        <div>
-            <label for="age">Age:</label>
-            <input type="number" name="age" id="age" min="1" max="100" step="1" placeholder="Enter your age" required>
-        </div>
-        <br>
-        <div>
-            <label id="email">Email:</label>
-            <input type="email" id="email" placeholder="Enter your email" required>
-        </div>
-        <br>
-        <div>Select your favorite food:</div>
-        <br>
-        <div>
-            <label for="orange">Orange</label>
-            <input type="checkbox" name="orange" id="orange" value="option1">
-        </div>
-        <div>
-            <label for="apple">Apple</label>
-            <input type="checkbox" name="apple" id="apple" value="option2">
-        </div>
-        <br>
-        <div>Gender:</div>
-        <br>
-        <div>
-            <label for="male">Male</label>
-            <input type="radio" name="gender" id="male" value="male">
-        </div>
-        <div>
-            <label for="female">Female</label>
-            <input type="radio" name="gender" id="female" value="female">
-        </div>
-        <br>
-        <div>
-            <label for="eyeColor">Eye Color:</label>
-            <select name="eyeColor" id="eyeColor">
-                <option value="green">Green</option>
-                <option value="brown">Brown</option>
-            </select>
-        </div>
-        <br>
-        <div>
-            <label for="bio" input="test2">Bio:</label>
+      <div>
+            <form id="survey-form">
+            <label id="name-label">Name:
+            <input id="name" type="text" required placeholder="name"/>
+            </label>
+      <div>
+             <label id="email-label">Email:
+             <input id="email" type="email" required placeholder="Email"/>
+             </label>
+      </div>
+      <div>
+             <label id="number-label">Age
+             <input id="number" type="number" min="1" max="99" placeholder="123"/>
+             <form name="#survey-form">
+      </label>
+      </div>
+      <br>
+      <div>
+            <label>what is your education level?</label>
+      <br>
+            <select id="dropdown">
+            <option value="student">student
+            <option value="collega">collage
+            <option value="pro">pro
+            </form>
+      </div>
+      <br>
+      <div>
+            <label for="female">female</label>
+            <input type="radio" name="group1" value="chose">
+            <label for="male">male</label>
+            <input type="radio" name="group1" value="chose">
+      </div>
+      <br>
+      <div>
+            <label for="orange">orange</lebal>
+            <input type=checkbox value="option1">
+            <label input="test1" for="Apple">Apple</lebal>
+            <input type=checkbox value="option2">
+            <label input="test2">
+      </div>
+      <br>
+      <div>
+            <label for="bio">bio:</label>
+      <br>
             <textarea id="bio" name="bio"></textarea>
-        </div>
-        <br>
-        <div>
-            <label for="phone">Phone:</label>
-            <input type="tel" name="phone" id="phone" placeholder="555-555-555">
-        </div>
-        <br>
-        <div>
-            <input type="submit">
-        </div>
-        <br>
-        <div>
-            <input type="reset">
-        </div>
-    </form>
-</body>
-</html>
+      </div>
+      <br>
+            <button type="submit" id="submit">submit
+      
